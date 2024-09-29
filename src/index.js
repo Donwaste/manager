@@ -1,9 +1,8 @@
 import React from "react";
-import { createRoot } from "react-dom/client"; // Импортируем createRoot
+import { createRoot } from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.css";
-import App from "./app"; // Убедитесь, что путь правильный
+import App from "./app";
 
-// Создаём корневой элемент для React приложения
-const container = document.getElementById("root"); // Получаем элемент root
-const root = createRoot(container); // Создаём корень
-root.render(<App />); // Рендерим компонент App
+const container = document.getElementById("root");
+const root = createRoot(container); 
+root.render(<App />);
